@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">7</td><td class="num attn">1</td><td class="num attn">4</td><td class="num attn">3</td><td class="num">320,724</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.testcases.LoginPageTest</td><td><a href="#m0">multiUserLoginTest</a></td><td rowspan="1">1598959006136</td><td rowspan="1">185</td></tr><tr class="failedodd"><td rowspan="2">com.qa.testcases.ProductsPageTest</td><td><a href="#m1">sortingTest</a></td><td rowspan="2">1598959165609</td><td rowspan="2">11283</td></tr><tr class="failedodd"><td><a href="#m2">sortingTest</a></td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.qa.testcases.LoginPageTest</td><td><a href="#m3">loginPageTitleTest</a></td><td rowspan="1">1598958867612</td><td rowspan="1">15</td></tr><tr><th colspan="4">Test &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="2">com.qa.testcases.LoginPageTest</td><td><a href="#m4">multiUserLoginTest</a></td><td rowspan="1">1598958997474</td><td rowspan="1">183</td></tr><tr class="retriedeven"><td><a href="#m5">stdUserLoginTest</a></td><td rowspan="1">1598958888277</td><td rowspan="1">60294</td></tr><tr class="retriedodd"><td rowspan="2">com.qa.testcases.ProductsPageTest</td><td><a href="#m6">sortingTest</a></td><td rowspan="2">1598959142580</td><td rowspan="2">15269</td></tr><tr class="retriedodd"><td><a href="#m7">sortingTest</a></td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.qa.testcases.LoginPageTest</td><td><a href="#m8">UITest</a></td><td rowspan="1">1598958878887</td><td rowspan="1">173</td></tr><tr class="passedeven"><td><a href="#m9">multiUserLoginTest</a></td><td rowspan="3">1598959029949</td><td rowspan="3">9757</td></tr><tr class="passedeven"><td><a href="#m10">multiUserLoginTest</a></td></tr><tr class="passedeven"><td><a href="#m11">multiUserLoginTest</a></td></tr><tr class="passedeven"><td><a href="#m12">stdUserLoginTest</a></td><td rowspan="1">1598958956746</td><td rowspan="1">9428</td></tr><tr class="passedodd"><td rowspan="2">com.qa.testcases.ProductsPageTest</td><td><a href="#m13">sortingTest</a></td><td rowspan="2">1598959047177</td><td rowspan="2">5934</td></tr><tr class="passedodd"><td><a href="#m14">sortingTest</a></td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.qa.testcases.LoginPageTest#multiUserLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>locked_out_user</td><td>secret_sauce</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.pages.ProductsPage.verifyPageByURL(ProductsPage.java:35)
+	at com.qa.testcases.LoginPageTest.multiUserLoginTest(LoginPageTest.java:65)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.testcases.ProductsPageTest#sortingTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>az</td><td>Sauce Labs BackpackM</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [Sauce Labs BackpackM] but found [Sauce Labs Backpack]
+	at com.qa.testcases.ProductsPageTest.sortingTest(ProductsPageTest.java:53)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.testcases.ProductsPageTest#sortingTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>lohi</td><td>Sauce Labs OnesieM</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [Sauce Labs OnesieM] but found [Sauce Labs Onesie]
+	at com.qa.testcases.ProductsPageTest.sortingTest(ProductsPageTest.java:53)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qa.testcases.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: &lt;&lt;&lt; Under Maintenance &gt;&gt;&gt;
+	at com.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:45)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.testcases.LoginPageTest#multiUserLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>locked_out_user</td><td>secret_sauce</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.pages.ProductsPage.verifyPageByURL(ProductsPage.java:35)
+	at com.qa.testcases.LoginPageTest.multiUserLoginTest(LoginPageTest.java:65)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.testcases.LoginPageTest#stdUserLoginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 60.000
+  (Session info: chrome=85.0.4183.83)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ARPGL000810&apos;, ip: &apos;192.168.43.87&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\ROHIT_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 58d93eebdfcc5bc6d1f12d954bcfbdcb
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at com.qa.pages.LoginPage.loginAccount(LoginPage.java:42)
+	at com.qa.testcases.LoginPageTest.stdUserLoginTest(LoginPageTest.java:57)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.qa.testcases.ProductsPageTest#sortingTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>az</td><td>Sauce Labs BackpackM</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [Sauce Labs BackpackM] but found [Sauce Labs Backpack]
+	at com.qa.testcases.ProductsPageTest.sortingTest(ProductsPageTest.java:53)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.qa.testcases.ProductsPageTest#sortingTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>lohi</td><td>Sauce Labs OnesieM</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [Sauce Labs OnesieM] but found [Sauce Labs Onesie]
+	at com.qa.testcases.ProductsPageTest.sortingTest(ProductsPageTest.java:53)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.qa.testcases.LoginPageTest#UITest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.qa.testcases.LoginPageTest#multiUserLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>performance_glitch_user</td><td>secret_sauce</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.qa.testcases.LoginPageTest#multiUserLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>standard_user</td><td>secret_sauce</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.qa.testcases.LoginPageTest#multiUserLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>problem_user</td><td>secret_sauce</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.qa.testcases.LoginPageTest#stdUserLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.qa.testcases.ProductsPageTest#sortingTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>hilo</td><td>Sauce Labs Fleece Jacket</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.qa.testcases.ProductsPageTest#sortingTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>za</td><td>Test.allTheThings() T-Shirt (Red)</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
