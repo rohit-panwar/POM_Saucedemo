@@ -18,10 +18,10 @@
       </class> <!-- com.qa.testcases.ProductsPageTest -->
       <class name="com.qa.testcases.LoginPageTest">
         <methods>
+          <include name="UITest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="extentReportCleanUp"/>
-          <include name="stdUserLoginTest"/>
           <include name="multiUserLoginTest" invocation-numbers="1 1"/>
           <include name="extentReportSetup"/>
           <include name="loginPageTitleTest"/>
