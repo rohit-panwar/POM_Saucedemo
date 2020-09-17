@@ -1,11 +1,10 @@
 package com.qa.testcases;
 
-import static org.testng.Assert.assertEquals;
-
 import java.io.IOException;
 import java.lang.reflect.Method;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -46,18 +45,16 @@ public class ProductsPageTest extends TestBase {
 		TestUtils.browserExitLog();
 	}
 
-	/*
-	 * @Test(dataProvider = "getUserDetails") public void sortingTest(String
-	 * sortByName, String firstProductNameExpected) throws InterruptedException {
-	 * testInfo.log(Status.INFO,
-	 * MarkupHelper.createLabel("Login using Standard User: " + sortByName,
-	 * ExtentColor.INDIGO)); String firstProductTextActual = loginPage
-	 * .loginAccount(prop.getProperty("StdUserName"), prop.getProperty("StdPwd"))
-	 * .selectSortingOrder(sortByName); assertEquals(firstProductTextActual,
-	 * firstProductNameExpected); testInfo.log(Status.INFO,
-	 * MarkupHelper.createLabel("Products sorted successfully",
-	 * ExtentColor.INDIGO)); }
-	 */
+	@Test(dataProvider = "getUserDetails")
+	public void sortingTest(String sortByName, String firstProductNameExpected) throws InterruptedException {
+		testInfo.log(Status.INFO,
+				MarkupHelper.createLabel("Login using Standard User: " + sortByName, ExtentColor.INDIGO));
+		String firstProductTextActual = loginPage
+				.loginAccount(prop.getProperty("StdUserName"), prop.getProperty("StdPwd"))
+				.selectSortingOrder(sortByName);
+		Assert.assertEquals(firstProductTextActual, firstProductNameExpected);
+		testInfo.log(Status.INFO, MarkupHelper.createLabel("Products sorted successfully", ExtentColor.INDIGO));
+	}
 
 	@DataProvider
 	public Object[][] getUserDetails() throws EncryptedDocumentException, IOException {

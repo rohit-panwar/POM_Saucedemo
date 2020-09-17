@@ -9,14 +9,47 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Command line suite</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">1</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">21,910</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">384,230</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.qa.testcases.LoginPageTest</td><td><a href="#m0">loginPageTitleTest</a></td><td rowspan="1">1599404090804</td><td rowspan="1">21</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qa.testcases.LoginPageTest</td><td><a href="#m1">UITest</a></td><td rowspan="1">1599404100960</td><td rowspan="1">169</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qa.testcases.LoginPageTest</td><td><a href="#m0">multiUserLoginTest</a></td><td rowspan="1">1600359718181</td><td rowspan="1">224</td></tr><tr class="failedodd"><td rowspan="2">com.qa.testcases.ProductsPageTest</td><td><a href="#m1">sortingTest</a></td><td rowspan="2">1600359832819</td><td rowspan="2">25086</td></tr><tr class="failedodd"><td><a href="#m2">sortingTest</a></td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.qa.testcases.LoginPageTest</td><td><a href="#m3">UITest</a></td><td rowspan="1">1600359638158</td><td rowspan="1">370</td></tr><tr class="passedeven"><td><a href="#m4">loginPageTitleTest</a></td><td rowspan="1">1600359629280</td><td rowspan="1">8</td></tr><tr class="passedeven"><td><a href="#m5">multiUserLoginTest</a></td><td rowspan="3">1600359682232</td><td rowspan="3">27246</td></tr><tr class="passedeven"><td><a href="#m6">multiUserLoginTest</a></td></tr><tr class="passedeven"><td><a href="#m7">multiUserLoginTest</a></td></tr><tr class="passedeven"><td><a href="#m8">stdUserLoginTest</a></td><td rowspan="1">1600359647064</td><td rowspan="1">25277</td></tr><tr class="passedodd"><td rowspan="2">com.qa.testcases.ProductsPageTest</td><td><a href="#m9">sortingTest</a></td><td rowspan="2">1600359866624</td><td rowspan="2">61983</td></tr><tr class="passedodd"><td><a href="#m10">sortingTest</a></td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">com.qa.testcases.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: &lt;&lt;&lt; Under Maintenance &gt;&gt;&gt;
-	at com.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:45)
+<h2>Command line test</h2><h3 id="m0">com.qa.testcases.LoginPageTest#multiUserLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>locked_out_user</td><td>secret_sauce</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.pages.ProductsPage.verifyPageByURL(ProductsPage.java:35)
+	at com.qa.testcases.LoginPageTest.multiUserLoginTest(LoginPageTest.java:65)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.qa.testcases.LoginPageTest#UITest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 41 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.testcases.ProductsPageTest#sortingTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>lohi</td><td>Sauce Labs OnesieM</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [Sauce Labs OnesieM] but found [Sauce Labs Onesie]
+	at com.qa.testcases.ProductsPageTest.sortingTest(ProductsPageTest.java:55)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 43 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.testcases.ProductsPageTest#sortingTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>az</td><td>Sauce Labs BackpackM</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 60.000
+  (Session info: chrome=85.0.4183.102)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ARPGL000810&apos;, ip: &apos;192.168.43.87&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\ROHIT_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54068}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 81dfeda25b537279a46c43f860579855
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.qa.pages.LoginPage.loginAccount(LoginPage.java:42)
+	at com.qa.testcases.ProductsPageTest.sortingTest(ProductsPageTest.java:53)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 45 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qa.testcases.LoginPageTest#UITest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.testcases.LoginPageTest#loginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.testcases.LoginPageTest#multiUserLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>standard_user</td><td>secret_sauce</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.qa.testcases.LoginPageTest#multiUserLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>performance_glitch_user</td><td>secret_sauce</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.qa.testcases.LoginPageTest#multiUserLoginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>problem_user</td><td>secret_sauce</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.qa.testcases.LoginPageTest#stdUserLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.qa.testcases.ProductsPageTest#sortingTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>za</td><td>Test.allTheThings() T-Shirt (Red)</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.qa.testcases.ProductsPageTest#sortingTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>hilo</td><td>Sauce Labs Fleece Jacket</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

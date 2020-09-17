@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Command_line_suite">
-              <span class="suite-name border-skipped">Command line suite</span>
+              <span class="suite-name border-failed">Command line suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,  1 skipped,  1 passed</span>
+                    <span class="method-stats">11 methods, 3 failed,   8 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods skipped suite-Command_line_suite"> (hide)</a> <!-- hide-methods skipped suite-Command_line_suite -->
-                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods skipped suite-Command_line_suite"> (show)</a> <!-- show-methods skipped suite-Command_line_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Command_line_suite" class="hide-methods failed suite-Command_line_suite"> (hide)</a> <!-- hide-methods failed suite-Command_line_suite -->
+                      <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Command_line_suite">
+                    <div class="method-list-content failed suite-Command_line_suite">
                       <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.testcases.LoginPageTest" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.testcases.LoginPageTest" hash-for-method="multiUserLoginTest(locked_out_user, secret_sauce)">multiUserLoginTest(locked_out_user, secret_sauce)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Command_line_suite -->
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.testcases.ProductsPageTest" hash-for-method="sortingTest(lohi, Sauce Labs OnesieM)">sortingTest(lohi, Sauce Labs OnesieM)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.testcases.ProductsPageTest" hash-for-method="sortingTest(az, Sauce Labs BackpackM)">sortingTest(az, Sauce Labs BackpackM)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Command_line_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -119,6 +129,41 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.testcases.LoginPageTest" hash-for-method="UITest">UITest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.testcases.LoginPageTest" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.testcases.LoginPageTest" hash-for-method="multiUserLoginTest(standard_user, secret_sauce)">multiUserLoginTest(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.testcases.LoginPageTest" hash-for-method="multiUserLoginTest(performance_glitch_user, secret_sauce)">multiUserLoginTest(performance_glitch_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.testcases.LoginPageTest" hash-for-method="multiUserLoginTest(problem_user, secret_sauce)">multiUserLoginTest(problem_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.testcases.ProductsPageTest" hash-for-method="sortingTest(za, Test.allTheThings() T-Shirt (Red))">sortingTest(za, Test.allTheThings() T-Shirt (Red))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.testcases.ProductsPageTest" hash-for-method="sortingTest(hilo, Sauce Labs Fleece Jacket)">sortingTest(hilo, Sauce Labs Fleece Jacket)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.qa.testcases.LoginPageTest" hash-for-method="stdUserLoginTest">stdUserLoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Command_line_suite -->
@@ -133,26 +178,103 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
-          <div class="suite-Command_line_suite-class-skipped">
+          <div class="suite-Command_line_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.testcases.ProductsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortingTest(lohi, Sauce Labs OnesieM)">
+                  </a> <!-- sortingTest(lohi, Sauce Labs OnesieM) -->
+                  <span class="method-name">sortingTest</span>
+                  <span class="parameters">(lohi, Sauce Labs OnesieM)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Sauce Labs OnesieM] but found [Sauce Labs Onesie]
+	at com.qa.testcases.ProductsPageTest.sortingTest(ProductsPageTest.java:55)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 43 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortingTest(az, Sauce Labs BackpackM)">
+                  </a> <!-- sortingTest(az, Sauce Labs BackpackM) -->
+                  <span class="method-name">sortingTest</span>
+                  <span class="parameters">(az, Sauce Labs BackpackM)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 60.000
+  (Session info: chrome=85.0.4183.102)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ARPGL000810&apos;, ip: &apos;192.168.43.87&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\ROHIT_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54068}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 81dfeda25b537279a46c43f860579855
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.qa.pages.LoginPage.loginAccount(LoginPage.java:42)
+	at com.qa.testcases.ProductsPageTest.sortingTest(ProductsPageTest.java:53)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 45 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">com.qa.testcases.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginPageTitleTest">
-                  </a> <!-- loginPageTitleTest -->
-                  <span class="method-name">loginPageTitleTest</span>
-                  <div class="stack-trace">org.testng.SkipException: &lt;&lt;&lt; Under Maintenance &gt;&gt;&gt;
-	at com.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:45)
+                  <a name="multiUserLoginTest(locked_out_user, secret_sauce)">
+                  </a> <!-- multiUserLoginTest(locked_out_user, secret_sauce) -->
+                  <span class="method-name">multiUserLoginTest</span>
+                  <span class="parameters">(locked_out_user, secret_sauce)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.pages.ProductsPage.verifyPageByURL(ProductsPage.java:35)
+	at com.qa.testcases.LoginPageTest.multiUserLoginTest(LoginPageTest.java:65)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 37 stack frames
+... Removed 41 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-skipped -->
+          </div> <!-- suite-Command_line_suite-class-failed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.testcases.ProductsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortingTest(za, Test.allTheThings() T-Shirt (Red))">
+                  </a> <!-- sortingTest(za, Test.allTheThings() T-Shirt (Red)) -->
+                  <span class="method-name">sortingTest</span>
+                  <span class="parameters">(za, Test.allTheThings() T-Shirt (Red))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortingTest(hilo, Sauce Labs Fleece Jacket)">
+                  </a> <!-- sortingTest(hilo, Sauce Labs Fleece Jacket) -->
+                  <span class="method-name">sortingTest</span>
+                  <span class="parameters">(hilo, Sauce Labs Fleece Jacket)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -164,6 +286,44 @@
                   <a name="UITest">
                   </a> <!-- UITest -->
                   <span class="method-name">UITest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiUserLoginTest(standard_user, secret_sauce)">
+                  </a> <!-- multiUserLoginTest(standard_user, secret_sauce) -->
+                  <span class="method-name">multiUserLoginTest</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiUserLoginTest(performance_glitch_user, secret_sauce)">
+                  </a> <!-- multiUserLoginTest(performance_glitch_user, secret_sauce) -->
+                  <span class="method-name">multiUserLoginTest</span>
+                  <span class="parameters">(performance_glitch_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiUserLoginTest(problem_user, secret_sauce)">
+                  </a> <!-- multiUserLoginTest(problem_user, secret_sauce) -->
+                  <span class="method-name">multiUserLoginTest</span>
+                  <span class="parameters">(problem_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stdUserLoginTest">
+                  </a> <!-- stdUserLoginTest -->
+                  <span class="method-name">stdUserLoginTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -220,20 +380,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(11);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'UITest')
-data.setCell(0, 2, 'com.qa.testcases.LoginPageTest')
-data.setCell(0, 3, 169);
+data.setCell(0, 1, 'sortingTest')
+data.setCell(0, 2, 'com.qa.testcases.ProductsPageTest')
+data.setCell(0, 3, 61983);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginPageTitleTest')
-data.setCell(1, 2, 'com.qa.testcases.LoginPageTest')
-data.setCell(1, 3, 21);
+data.setCell(1, 1, 'sortingTest')
+data.setCell(1, 2, 'com.qa.testcases.ProductsPageTest')
+data.setCell(1, 3, 60342);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'sortingTest')
+data.setCell(2, 2, 'com.qa.testcases.ProductsPageTest')
+data.setCell(2, 3, 43559);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'multiUserLoginTest')
+data.setCell(3, 2, 'com.qa.testcases.LoginPageTest')
+data.setCell(3, 3, 31522);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'multiUserLoginTest')
+data.setCell(4, 2, 'com.qa.testcases.LoginPageTest')
+data.setCell(4, 3, 27246);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'stdUserLoginTest')
+data.setCell(5, 2, 'com.qa.testcases.LoginPageTest')
+data.setCell(5, 3, 25277);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'sortingTest')
+data.setCell(6, 2, 'com.qa.testcases.ProductsPageTest')
+data.setCell(6, 3, 25086);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'multiUserLoginTest')
+data.setCell(7, 2, 'com.qa.testcases.LoginPageTest')
+data.setCell(7, 3, 1072);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'UITest')
+data.setCell(8, 2, 'com.qa.testcases.LoginPageTest')
+data.setCell(8, 3, 370);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'multiUserLoginTest')
+data.setCell(9, 2, 'com.qa.testcases.LoginPageTest')
+data.setCell(9, 3, 224);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginPageTitleTest')
+data.setCell(10, 2, 'com.qa.testcases.LoginPageTest')
+data.setCell(10, 3, 8);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 190 ms</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -275,31 +471,151 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.qa.testcases.LoginPageTest.loginPageTitleTest())</span>
-                <span class="method-start">379 ms</span>
+                <span class="method-start">403 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginPageTitleTest</span>
-                <span class="method-start">10796 ms</span>
+                <span class="method-start">11927 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=loginPageTitleTest status=SKIP method=LoginPageTest.loginPageTitleTest()[pri:0, ins...)</span>
-                <span class="method-start">10821 ms</span>
+                <span class="method-name">tearDown([TestResult name=loginPageTitleTest status=SUCCESS method=LoginPageTest.loginPageTitleTest()[pri:0, ...)</span>
+                <span class="method-start">11937 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void com.qa.testcases.LoginPageTest.UITest())</span>
-                <span class="method-start">12452 ms</span>
+                <span class="method-start">13429 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">UITest</span>
-                <span class="method-start">20952 ms</span>
+                <span class="method-start">20805 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=UITest status=SUCCESS method=LoginPageTest.UITest()[pri:1, instance:com.qa.testcase...)</span>
-                <span class="method-start">21122 ms</span>
+                <span class="method-start">21176 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.qa.testcases.LoginPageTest.stdUserLoginTest())</span>
+                <span class="method-start">22560 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">stdUserLoginTest</span>
+                <span class="method-start">29711 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=stdUserLoginTest status=SUCCESS method=LoginPageTest.stdUserLoginTest()[pri:2, inst...)</span>
+                <span class="method-start">54988 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.qa.testcases.LoginPageTest.multiUserLoginTest(java.lang.String,java.lang.String))</span>
+                <span class="method-start">57458 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multiUserLoginTest(standard_user, secret_sauce)</span>
+                <span class="method-start">64879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=multiUserLoginTest status=SUCCESS method=LoginPageTest.multiUserLoginTest(java.lang...)</span>
+                <span class="method-start">92125 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.qa.testcases.LoginPageTest.multiUserLoginTest(java.lang.String,java.lang.String))</span>
+                <span class="method-start">93263 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">multiUserLoginTest(locked_out_user, secret_sauce)</span>
+                <span class="method-start">100828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=multiUserLoginTest status=FAILURE method=LoginPageTest.multiUserLoginTest(java.lang...)</span>
+                <span class="method-start">101055 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.qa.testcases.LoginPageTest.multiUserLoginTest(java.lang.String,java.lang.String))</span>
+                <span class="method-start">102194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multiUserLoginTest(problem_user, secret_sauce)</span>
+                <span class="method-start">109271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=multiUserLoginTest status=SUCCESS method=LoginPageTest.multiUserLoginTest(java.lang...)</span>
+                <span class="method-start">110343 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.qa.testcases.LoginPageTest.multiUserLoginTest(java.lang.String,java.lang.String))</span>
+                <span class="method-start">111389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">multiUserLoginTest(performance_glitch_user, secret_sauce)</span>
+                <span class="method-start">119215 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=multiUserLoginTest status=SUCCESS method=LoginPageTest.multiUserLoginTest(java.lang...)</span>
+                <span class="method-start">150738 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.testcases.ProductsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.qa.testcases.ProductsPageTest.sortingTest(java.lang.String,java.lang.String) throws ...)</span>
+                <span class="method-start">151972 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortingTest(hilo, Sauce Labs Fleece Jacket)</span>
+                <span class="method-start">162874 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortingTest status=SUCCESS method=ProductsPageTest.sortingTest(java.lang.String, ja...)</span>
+                <span class="method-start">206434 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.qa.testcases.ProductsPageTest.sortingTest(java.lang.String,java.lang.String) throws ...)</span>
+                <span class="method-start">207561 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sortingTest(lohi, Sauce Labs OnesieM)</span>
+                <span class="method-start">215466 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortingTest status=FAILURE method=ProductsPageTest.sortingTest(java.lang.String, ja...)</span>
+                <span class="method-start">240554 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.qa.testcases.ProductsPageTest.sortingTest(java.lang.String,java.lang.String) throws ...)</span>
+                <span class="method-start">241670 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sortingTest(za, Test.allTheThings() T-Shirt (Red))</span>
+                <span class="method-start">249271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortingTest status=SUCCESS method=ProductsPageTest.sortingTest(java.lang.String, ja...)</span>
+                <span class="method-start">311254 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.qa.testcases.ProductsPageTest.sortingTest(java.lang.String,java.lang.String) throws ...)</span>
+                <span class="method-start">312383 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sortingTest(az, Sauce Labs BackpackM)</span>
+                <span class="method-start">323108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=sortingTest status=FAILURE method=ProductsPageTest.sortingTest(java.lang.String, ja...)</span>
+                <span class="method-start">383453 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">extentReportCleanUp</span>
-                <span class="method-start">22350 ms</span>
+                <span class="method-start">384699 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
