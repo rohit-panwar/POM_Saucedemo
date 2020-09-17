@@ -3,15 +3,6 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test thread-count="5" verbose="0" name="Command line test(failed)">
     <classes>
-      <class name="com.qa.testcases.ProductsPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="extentReportCleanUp"/>
-          <include name="sortingTest" invocation-numbers="1 3"/>
-          <include name="setup"/>
-          <include name="extentReportSetup"/>
-        </methods>
-      </class> <!-- com.qa.testcases.ProductsPageTest -->
       <class name="com.qa.testcases.LoginPageTest">
         <methods>
           <include name="tearDown"/>

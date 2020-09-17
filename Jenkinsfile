@@ -6,7 +6,7 @@ pipeline {
 
             steps {
                 withMaven(maven : 'jenkins_maven_3_6_3') {
-                    sh 'mvn clean compile'
+                    bat 'mvn clean compile'
                 }
             }
         }
@@ -15,7 +15,7 @@ pipeline {
 
             steps {
                 withMaven(maven : 'jenkins_maven_3_6_3') {
-                    sh 'mvn test'
+                    bat 'mvn test'
                 }
             }
         }
