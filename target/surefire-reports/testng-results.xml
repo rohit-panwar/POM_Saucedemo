@@ -1,17 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="2" total="12" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="20404" started-at="2020-09-18T16:48:18 IST" finished-at="2020-09-18T16:48:38 IST">
+  <suite name="Suite" duration-ms="215132" started-at="2020-09-18T17:39:37 IST" finished-at="2020-09-18T17:43:12 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="20404" started-at="2020-09-18T16:48:18 IST" finished-at="2020-09-18T16:48:38 IST">
+    <test name="Test" duration-ms="215132" started-at="2020-09-18T17:39:37 IST" finished-at="2020-09-18T17:43:12 IST">
+      <class name="com.qa.testcases.ProductsPageTest">
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.ProductsPageTest@56ac3a89]" name="setup" is-config="true" duration-ms="8395" started-at="2020-09-18T17:41:42 IST" finished-at="2020-09-18T17:41:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcases.ProductsPageTest.sortingTest(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sortingTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.ProductsPageTest@56ac3a89]" name="sortingTest" duration-ms="12735" started-at="2020-09-18T17:41:51 IST" data-provider="getUserDetails" finished-at="2020-09-18T17:42:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hilo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sauce Labs Fleece Jacket]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortingTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.ProductsPageTest@56ac3a89]" name="tearDown" is-config="true" duration-ms="1144" started-at="2020-09-18T17:42:04 IST" finished-at="2020-09-18T17:42:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortingTest status=SUCCESS method=ProductsPageTest.sortingTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.ProductsPageTest@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.ProductsPageTest@56ac3a89]" name="setup" is-config="true" duration-ms="8373" started-at="2020-09-18T17:42:05 IST" finished-at="2020-09-18T17:42:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcases.ProductsPageTest.sortingTest(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sortingTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.ProductsPageTest@56ac3a89]" name="sortingTest" duration-ms="11186" started-at="2020-09-18T17:42:13 IST" data-provider="getUserDetails" finished-at="2020-09-18T17:42:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lohi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sauce Labs Onesie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortingTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.ProductsPageTest@56ac3a89]" name="tearDown" is-config="true" duration-ms="1506" started-at="2020-09-18T17:42:24 IST" finished-at="2020-09-18T17:42:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortingTest status=SUCCESS method=ProductsPageTest.sortingTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.ProductsPageTest@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.ProductsPageTest@56ac3a89]" name="setup" is-config="true" duration-ms="8149" started-at="2020-09-18T17:42:26 IST" finished-at="2020-09-18T17:42:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcases.ProductsPageTest.sortingTest(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sortingTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.ProductsPageTest@56ac3a89]" name="sortingTest" duration-ms="10033" started-at="2020-09-18T17:42:34 IST" data-provider="getUserDetails" finished-at="2020-09-18T17:42:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[za]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test.allTheThings() T-Shirt (Red)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortingTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.ProductsPageTest@56ac3a89]" name="tearDown" is-config="true" duration-ms="1503" started-at="2020-09-18T17:42:44 IST" finished-at="2020-09-18T17:42:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortingTest status=SUCCESS method=ProductsPageTest.sortingTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.ProductsPageTest@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.ProductsPageTest@56ac3a89]" name="setup" is-config="true" duration-ms="8378" started-at="2020-09-18T17:42:45 IST" finished-at="2020-09-18T17:42:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcases.ProductsPageTest.sortingTest(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="sortingTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.ProductsPageTest@56ac3a89]" name="sortingTest" duration-ms="16653" started-at="2020-09-18T17:42:54 IST" data-provider="getUserDetails" finished-at="2020-09-18T17:43:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[az]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sauce Labs Backpack]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortingTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.ProductsPageTest@56ac3a89]" name="tearDown" is-config="true" duration-ms="1124" started-at="2020-09-18T17:43:11 IST" finished-at="2020-09-18T17:43:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortingTest status=SUCCESS method=ProductsPageTest.sortingTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.testcases.ProductsPageTest@56ac3a89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.ProductsPageTest -->
       <class name="com.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="extentReportSetup()[pri:0, instance:com.qa.testcases.LoginPageTest@3f49dace]" name="extentReportSetup" is-config="true" duration-ms="172" started-at="2020-09-18T16:48:18 IST" finished-at="2020-09-18T16:48:18 IST">
+        <test-method status="PASS" signature="extentReportSetup()[pri:0, instance:com.qa.testcases.LoginPageTest@490ab905]" name="extentReportSetup" is-config="true" duration-ms="297" started-at="2020-09-18T17:39:36 IST" finished-at="2020-09-18T17:39:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportSetup -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@3f49dace]" name="setUp" is-config="true" duration-ms="9164" started-at="2020-09-18T16:48:18 IST" finished-at="2020-09-18T16:48:27 IST">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@490ab905]" name="setUp" is-config="true" duration-ms="10487" started-at="2020-09-18T17:39:37 IST" finished-at="2020-09-18T17:39:47 IST">
           <params>
             <param index="0">
               <value>
@@ -22,22 +176,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.qa.testcases.LoginPageTest@3f49dace]" name="loginPageTitleTest" duration-ms="28" started-at="2020-09-18T16:48:27 IST" finished-at="2020-09-18T16:48:27 IST">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.qa.testcases.LoginPageTest@490ab905]" name="loginPageTitleTest" duration-ms="15" started-at="2020-09-18T17:39:47 IST" finished-at="2020-09-18T17:39:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@3f49dace]" name="tearDown" is-config="true" duration-ms="1450" started-at="2020-09-18T16:48:27 IST" finished-at="2020-09-18T16:48:29 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@490ab905]" name="tearDown" is-config="true" duration-ms="1538" started-at="2020-09-18T17:39:47 IST" finished-at="2020-09-18T17:39:49 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginPageTitleTest status=SUCCESS method=LoginPageTest.loginPageTitleTest()[pri:0, instance:com.qa.testcases.LoginPageTest@3f49dace] output={null}]]]>
+                <![CDATA[[TestResult name=loginPageTitleTest status=SUCCESS method=LoginPageTest.loginPageTitleTest()[pri:0, instance:com.qa.testcases.LoginPageTest@490ab905] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@3f49dace]" name="setUp" is-config="true" duration-ms="8287" started-at="2020-09-18T16:48:29 IST" finished-at="2020-09-18T16:48:37 IST">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@490ab905]" name="setUp" is-config="true" duration-ms="8313" started-at="2020-09-18T17:39:49 IST" finished-at="2020-09-18T17:39:57 IST">
           <params>
             <param index="0">
               <value>
@@ -48,22 +202,162 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UITest()[pri:1, instance:com.qa.testcases.LoginPageTest@3f49dace]" name="UITest" duration-ms="273" started-at="2020-09-18T16:48:37 IST" finished-at="2020-09-18T16:48:37 IST">
+        <test-method status="PASS" signature="UITest()[pri:1, instance:com.qa.testcases.LoginPageTest@490ab905]" name="UITest" duration-ms="396" started-at="2020-09-18T17:39:57 IST" finished-at="2020-09-18T17:39:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UITest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@3f49dace]" name="tearDown" is-config="true" duration-ms="1168" started-at="2020-09-18T16:48:37 IST" finished-at="2020-09-18T16:48:38 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@490ab905]" name="tearDown" is-config="true" duration-ms="1304" started-at="2020-09-18T17:39:57 IST" finished-at="2020-09-18T17:39:59 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UITest status=SUCCESS method=LoginPageTest.UITest()[pri:1, instance:com.qa.testcases.LoginPageTest@3f49dace] output={null}]]]>
+                <![CDATA[[TestResult name=UITest status=SUCCESS method=LoginPageTest.UITest()[pri:1, instance:com.qa.testcases.LoginPageTest@490ab905] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="extentReportCleanUp()[pri:0, instance:com.qa.testcases.LoginPageTest@3f49dace]" name="extentReportCleanUp" is-config="true" duration-ms="723" started-at="2020-09-18T16:48:38 IST" finished-at="2020-09-18T16:48:39 IST">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@490ab905]" name="setUp" is-config="true" duration-ms="9173" started-at="2020-09-18T17:39:59 IST" finished-at="2020-09-18T17:40:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcases.LoginPageTest.stdUserLoginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="stdUserLoginTest()[pri:2, instance:com.qa.testcases.LoginPageTest@490ab905]" name="stdUserLoginTest" duration-ms="22747" started-at="2020-09-18T17:40:08 IST" finished-at="2020-09-18T17:40:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stdUserLoginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@490ab905]" name="tearDown" is-config="true" duration-ms="1139" started-at="2020-09-18T17:40:31 IST" finished-at="2020-09-18T17:40:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=stdUserLoginTest status=SUCCESS method=LoginPageTest.stdUserLoginTest()[pri:2, instance:com.qa.testcases.LoginPageTest@490ab905] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@490ab905]" name="setUp" is-config="true" duration-ms="8482" started-at="2020-09-18T17:40:33 IST" finished-at="2020-09-18T17:40:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcases.LoginPageTest.multiUserLoginTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="multiUserLoginTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.LoginPageTest@490ab905]" name="multiUserLoginTest" duration-ms="21778" started-at="2020-09-18T17:40:41 IST" data-provider="getUserDetails" finished-at="2020-09-18T17:41:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiUserLoginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@490ab905]" name="tearDown" is-config="true" duration-ms="1171" started-at="2020-09-18T17:41:03 IST" finished-at="2020-09-18T17:41:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multiUserLoginTest status=SUCCESS method=LoginPageTest.multiUserLoginTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.LoginPageTest@490ab905] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@490ab905]" name="setUp" is-config="true" duration-ms="8512" started-at="2020-09-18T17:41:04 IST" finished-at="2020-09-18T17:41:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcases.LoginPageTest.multiUserLoginTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="multiUserLoginTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.LoginPageTest@490ab905]" name="multiUserLoginTest" duration-ms="1052" started-at="2020-09-18T17:41:13 IST" data-provider="getUserDetails" finished-at="2020-09-18T17:41:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiUserLoginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@490ab905]" name="tearDown" is-config="true" duration-ms="1535" started-at="2020-09-18T17:41:14 IST" finished-at="2020-09-18T17:41:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multiUserLoginTest status=SUCCESS method=LoginPageTest.multiUserLoginTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.LoginPageTest@490ab905] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@490ab905]" name="setUp" is-config="true" duration-ms="8069" started-at="2020-09-18T17:41:15 IST" finished-at="2020-09-18T17:41:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcases.LoginPageTest.multiUserLoginTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="multiUserLoginTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.LoginPageTest@490ab905]" name="multiUserLoginTest" duration-ms="17883" started-at="2020-09-18T17:41:23 IST" data-provider="getUserDetails" finished-at="2020-09-18T17:41:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiUserLoginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@490ab905]" name="tearDown" is-config="true" duration-ms="1154" started-at="2020-09-18T17:41:41 IST" finished-at="2020-09-18T17:41:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multiUserLoginTest status=SUCCESS method=LoginPageTest.multiUserLoginTest(java.lang.String, java.lang.String)[pri:3, instance:com.qa.testcases.LoginPageTest@490ab905] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="extentReportCleanUp()[pri:0, instance:com.qa.testcases.LoginPageTest@490ab905]" name="extentReportCleanUp" is-config="true" duration-ms="682" started-at="2020-09-18T17:43:12 IST" finished-at="2020-09-18T17:43:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportCleanUp -->
