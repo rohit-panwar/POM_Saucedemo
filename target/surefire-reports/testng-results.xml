@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="19345" started-at="2020-09-18T16:26:42 IST" finished-at="2020-09-18T16:27:01 IST">
+  <suite name="Suite" duration-ms="20404" started-at="2020-09-18T16:48:18 IST" finished-at="2020-09-18T16:48:38 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="19345" started-at="2020-09-18T16:26:42 IST" finished-at="2020-09-18T16:27:01 IST">
+    <test name="Test" duration-ms="20404" started-at="2020-09-18T16:48:18 IST" finished-at="2020-09-18T16:48:38 IST">
       <class name="com.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="extentReportSetup()[pri:0, instance:com.qa.testcases.LoginPageTest@6e06451e]" name="extentReportSetup" is-config="true" duration-ms="110" started-at="2020-09-18T16:26:41 IST" finished-at="2020-09-18T16:26:42 IST">
+        <test-method status="PASS" signature="extentReportSetup()[pri:0, instance:com.qa.testcases.LoginPageTest@3f49dace]" name="extentReportSetup" is-config="true" duration-ms="172" started-at="2020-09-18T16:48:18 IST" finished-at="2020-09-18T16:48:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportSetup -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@6e06451e]" name="setUp" is-config="true" duration-ms="9059" started-at="2020-09-18T16:26:42 IST" finished-at="2020-09-18T16:26:51 IST">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@3f49dace]" name="setUp" is-config="true" duration-ms="9164" started-at="2020-09-18T16:48:18 IST" finished-at="2020-09-18T16:48:27 IST">
           <params>
             <param index="0">
               <value>
@@ -22,22 +22,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.qa.testcases.LoginPageTest@6e06451e]" name="loginPageTitleTest" duration-ms="11" started-at="2020-09-18T16:26:51 IST" finished-at="2020-09-18T16:26:51 IST">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.qa.testcases.LoginPageTest@3f49dace]" name="loginPageTitleTest" duration-ms="28" started-at="2020-09-18T16:48:27 IST" finished-at="2020-09-18T16:48:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@6e06451e]" name="tearDown" is-config="true" duration-ms="1106" started-at="2020-09-18T16:26:51 IST" finished-at="2020-09-18T16:26:52 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@3f49dace]" name="tearDown" is-config="true" duration-ms="1450" started-at="2020-09-18T16:48:27 IST" finished-at="2020-09-18T16:48:29 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginPageTitleTest status=SUCCESS method=LoginPageTest.loginPageTitleTest()[pri:0, instance:com.qa.testcases.LoginPageTest@6e06451e] output={null}]]]>
+                <![CDATA[[TestResult name=loginPageTitleTest status=SUCCESS method=LoginPageTest.loginPageTitleTest()[pri:0, instance:com.qa.testcases.LoginPageTest@3f49dace] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@6e06451e]" name="setUp" is-config="true" duration-ms="7855" started-at="2020-09-18T16:26:52 IST" finished-at="2020-09-18T16:27:00 IST">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@3f49dace]" name="setUp" is-config="true" duration-ms="8287" started-at="2020-09-18T16:48:29 IST" finished-at="2020-09-18T16:48:37 IST">
           <params>
             <param index="0">
               <value>
@@ -48,94 +48,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UITest()[pri:1, instance:com.qa.testcases.LoginPageTest@6e06451e]" name="UITest" duration-ms="182" started-at="2020-09-18T16:27:00 IST" finished-at="2020-09-18T16:27:00 IST">
+        <test-method status="PASS" signature="UITest()[pri:1, instance:com.qa.testcases.LoginPageTest@3f49dace]" name="UITest" duration-ms="273" started-at="2020-09-18T16:48:37 IST" finished-at="2020-09-18T16:48:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UITest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@6e06451e]" name="tearDown" is-config="true" duration-ms="1109" started-at="2020-09-18T16:27:00 IST" finished-at="2020-09-18T16:27:01 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@3f49dace]" name="tearDown" is-config="true" duration-ms="1168" started-at="2020-09-18T16:48:37 IST" finished-at="2020-09-18T16:48:38 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UITest status=SUCCESS method=LoginPageTest.UITest()[pri:1, instance:com.qa.testcases.LoginPageTest@6e06451e] output={null}]]]>
+                <![CDATA[[TestResult name=UITest status=SUCCESS method=LoginPageTest.UITest()[pri:1, instance:com.qa.testcases.LoginPageTest@3f49dace] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="extentReportCleanUp()[pri:0, instance:com.qa.testcases.LoginPageTest@6e06451e]" name="extentReportCleanUp" is-config="true" duration-ms="298" started-at="2020-09-18T16:27:01 IST" finished-at="2020-09-18T16:27:01 IST">
+        <test-method status="PASS" signature="extentReportCleanUp()[pri:0, instance:com.qa.testcases.LoginPageTest@3f49dace]" name="extentReportCleanUp" is-config="true" duration-ms="723" started-at="2020-09-18T16:48:38 IST" finished-at="2020-09-18T16:48:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportCleanUp -->
       </class> <!-- com.qa.testcases.LoginPageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
-  <suite name="Smoke Suite" duration-ms="19494" started-at="2020-09-18T16:27:01 IST" finished-at="2020-09-18T16:27:21 IST">
-    <groups>
-    </groups>
-    <test name="Test" duration-ms="19494" started-at="2020-09-18T16:27:01 IST" finished-at="2020-09-18T16:27:21 IST">
-      <class name="com.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="extentReportSetup()[pri:0, instance:com.qa.testcases.LoginPageTest@66480dd7]" name="extentReportSetup" is-config="true" duration-ms="5" started-at="2020-09-18T16:27:01 IST" finished-at="2020-09-18T16:27:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extentReportSetup -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@66480dd7]" name="setUp" is-config="true" duration-ms="8707" started-at="2020-09-18T16:27:01 IST" finished-at="2020-09-18T16:27:10 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.testcases.LoginPageTest.loginPageTitleTest()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.qa.testcases.LoginPageTest@66480dd7]" name="loginPageTitleTest" duration-ms="13" started-at="2020-09-18T16:27:10 IST" finished-at="2020-09-18T16:27:10 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@66480dd7]" name="tearDown" is-config="true" duration-ms="1185" started-at="2020-09-18T16:27:10 IST" finished-at="2020-09-18T16:27:11 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginPageTitleTest status=SUCCESS method=LoginPageTest.loginPageTitleTest()[pri:0, instance:com.qa.testcases.LoginPageTest@66480dd7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@66480dd7]" name="setUp" is-config="true" duration-ms="8007" started-at="2020-09-18T16:27:11 IST" finished-at="2020-09-18T16:27:19 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qa.testcases.LoginPageTest.UITest()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UITest()[pri:1, instance:com.qa.testcases.LoginPageTest@66480dd7]" name="UITest" duration-ms="288" started-at="2020-09-18T16:27:19 IST" finished-at="2020-09-18T16:27:19 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UITest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@66480dd7]" name="tearDown" is-config="true" duration-ms="1293" started-at="2020-09-18T16:27:19 IST" finished-at="2020-09-18T16:27:21 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=UITest status=SUCCESS method=LoginPageTest.UITest()[pri:1, instance:com.qa.testcases.LoginPageTest@66480dd7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="extentReportCleanUp()[pri:0, instance:com.qa.testcases.LoginPageTest@66480dd7]" name="extentReportCleanUp" is-config="true" duration-ms="74" started-at="2020-09-18T16:27:21 IST" finished-at="2020-09-18T16:27:21 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- extentReportCleanUp -->
-      </class> <!-- com.qa.testcases.LoginPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Smoke Suite -->
 </testng-results>
