@@ -19,6 +19,15 @@ pipeline {
                 }
             }
         }
+        
+        stage ('Testing Stage- Regression Test') {
+
+            steps {
+                withMaven(maven : 'jenkins_maven_3_6_3') {
+                    bat 'mvn test -DsuiteXmlFile="./testng.xml"'
+                }
+            }
+        }
 
     }
         
