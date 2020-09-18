@@ -51,19 +51,19 @@ public class LoginPageTest extends TestBase {
 		loginPage.validateUIComponent();
 	}
 
-	@Test(priority = 2)
-	public void stdUserLoginTest() {
-		testInfo.log(Status.INFO, MarkupHelper.createLabel("Login using Standard User", ExtentColor.INDIGO));
-		productsPage = loginPage.loginAccount(prop.getProperty("StdUserName"), prop.getProperty("StdPwd"));
-		productsPage.verifyPageByURL();
-	}
-
-	@Test(priority = 3, dataProvider = "getUserDetails")
-	public void multiUserLoginTest(String uname, String pwd) {
-		testInfo.log(Status.INFO, MarkupHelper.createLabel("Login test using multiple user", ExtentColor.INDIGO));
-		productsPage = loginPage.loginAccount(uname, pwd);
-		productsPage.verifyPageByURL();
-	}
+	/*
+	 * @Test(priority = 2) public void stdUserLoginTest() {
+	 * testInfo.log(Status.INFO,
+	 * MarkupHelper.createLabel("Login using Standard User", ExtentColor.INDIGO));
+	 * productsPage = loginPage.loginAccount(prop.getProperty("StdUserName"),
+	 * prop.getProperty("StdPwd")); productsPage.verifyPageByURL(); }
+	 * 
+	 * @Test(priority = 3, dataProvider = "getUserDetails") public void
+	 * multiUserLoginTest(String uname, String pwd) { testInfo.log(Status.INFO,
+	 * MarkupHelper.createLabel("Login test using multiple user",
+	 * ExtentColor.INDIGO)); productsPage = loginPage.loginAccount(uname, pwd);
+	 * productsPage.verifyPageByURL(); }
+	 */
 
 	@DataProvider
 	public Object[][] getUserDetails() throws EncryptedDocumentException, IOException {

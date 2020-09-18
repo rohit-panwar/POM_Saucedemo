@@ -1,17 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10443" started-at="2020-09-17T22:56:14 IST" finished-at="2020-09-17T22:56:24 IST">
+  <suite name="Suite" duration-ms="26993" started-at="2020-09-18T15:46:59 IST" finished-at="2020-09-18T15:47:26 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10443" started-at="2020-09-17T22:56:14 IST" finished-at="2020-09-17T22:56:24 IST">
+    <test name="Test" duration-ms="26993" started-at="2020-09-18T15:46:59 IST" finished-at="2020-09-18T15:47:26 IST">
       <class name="com.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="extentReportSetup()[pri:0, instance:com.qa.testcases.LoginPageTest@80503]" name="extentReportSetup" is-config="true" duration-ms="111" started-at="2020-09-17T22:56:14 IST" finished-at="2020-09-17T22:56:14 IST">
+        <test-method status="PASS" signature="extentReportSetup()[pri:0, instance:com.qa.testcases.LoginPageTest@78e67e0a]" name="extentReportSetup" is-config="true" duration-ms="107" started-at="2020-09-18T15:46:59 IST" finished-at="2020-09-18T15:46:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportSetup -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@80503]" name="setUp" is-config="true" duration-ms="9092" started-at="2020-09-17T22:56:14 IST" finished-at="2020-09-17T22:56:23 IST">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@78e67e0a]" name="setUp" is-config="true" duration-ms="17012" started-at="2020-09-18T15:46:59 IST" finished-at="2020-09-18T15:47:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.testcases.LoginPageTest.loginPageTitleTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:0, instance:com.qa.testcases.LoginPageTest@78e67e0a]" name="loginPageTitleTest" duration-ms="11" started-at="2020-09-18T15:47:16 IST" finished-at="2020-09-18T15:47:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@78e67e0a]" name="tearDown" is-config="true" duration-ms="1037" started-at="2020-09-18T15:47:16 IST" finished-at="2020-09-18T15:47:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageTitleTest status=SUCCESS method=LoginPageTest.loginPageTitleTest()[pri:0, instance:com.qa.testcases.LoginPageTest@78e67e0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.qa.testcases.LoginPageTest@78e67e0a]" name="setUp" is-config="true" duration-ms="7857" started-at="2020-09-18T15:47:17 IST" finished-at="2020-09-18T15:47:25 IST">
           <params>
             <param index="0">
               <value>
@@ -22,26 +48,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="UITest()[pri:1, instance:com.qa.testcases.LoginPageTest@80503]" name="UITest" duration-ms="320" started-at="2020-09-17T22:56:23 IST" finished-at="2020-09-17T22:56:23 IST">
+        <test-method status="PASS" signature="UITest()[pri:1, instance:com.qa.testcases.LoginPageTest@78e67e0a]" name="UITest" duration-ms="155" started-at="2020-09-18T15:47:25 IST" finished-at="2020-09-18T15:47:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UITest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@80503]" name="tearDown" is-config="true" duration-ms="1004" started-at="2020-09-17T22:56:23 IST" finished-at="2020-09-17T22:56:24 IST">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginPageTest@78e67e0a]" name="tearDown" is-config="true" duration-ms="896" started-at="2020-09-18T15:47:25 IST" finished-at="2020-09-18T15:47:26 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UITest status=SUCCESS method=LoginPageTest.UITest()[pri:1, instance:com.qa.testcases.LoginPageTest@80503] output={null}]]]>
+                <![CDATA[[TestResult name=UITest status=SUCCESS method=LoginPageTest.UITest()[pri:1, instance:com.qa.testcases.LoginPageTest@78e67e0a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="extentReportCleanUp()[pri:0, instance:com.qa.testcases.LoginPageTest@80503]" name="extentReportCleanUp" is-config="true" duration-ms="362" started-at="2020-09-17T22:56:24 IST" finished-at="2020-09-17T22:56:25 IST">
+        <test-method status="PASS" signature="extentReportCleanUp()[pri:0, instance:com.qa.testcases.LoginPageTest@78e67e0a]" name="extentReportCleanUp" is-config="true" duration-ms="282" started-at="2020-09-18T15:47:26 IST" finished-at="2020-09-18T15:47:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportCleanUp -->
       </class> <!-- com.qa.testcases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

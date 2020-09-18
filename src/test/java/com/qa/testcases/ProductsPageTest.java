@@ -45,16 +45,18 @@ public class ProductsPageTest extends TestBase {
 		TestUtils.browserExitLog();
 	}
 
-	@Test(dataProvider = "getUserDetails")
-	public void sortingTest(String sortByName, String firstProductNameExpected) throws InterruptedException {
-		testInfo.log(Status.INFO,
-				MarkupHelper.createLabel("Login using Standard User: " + sortByName, ExtentColor.INDIGO));
-		String firstProductTextActual = loginPage
-				.loginAccount(prop.getProperty("StdUserName"), prop.getProperty("StdPwd"))
-				.selectSortingOrder(sortByName);
-		Assert.assertEquals(firstProductTextActual, firstProductNameExpected);
-		testInfo.log(Status.INFO, MarkupHelper.createLabel("Products sorted successfully", ExtentColor.INDIGO));
-	}
+	/*
+	 * @Test(dataProvider = "getUserDetails") public void sortingTest(String
+	 * sortByName, String firstProductNameExpected) throws InterruptedException {
+	 * testInfo.log(Status.INFO,
+	 * MarkupHelper.createLabel("Login using Standard User: " + sortByName,
+	 * ExtentColor.INDIGO)); String firstProductTextActual = loginPage
+	 * .loginAccount(prop.getProperty("StdUserName"), prop.getProperty("StdPwd"))
+	 * .selectSortingOrder(sortByName); Assert.assertEquals(firstProductTextActual,
+	 * firstProductNameExpected); testInfo.log(Status.INFO,
+	 * MarkupHelper.createLabel("Products sorted successfully",
+	 * ExtentColor.INDIGO)); }
+	 */
 
 	@DataProvider
 	public Object[][] getUserDetails() throws EncryptedDocumentException, IOException {

@@ -1,7 +1,9 @@
 com\qa\pages\LoginPage.class
-listeners\Retry.class
 listeners\TestListener.class
+com\qa\testcases\LoginPageTest.class
+com\qa\utils\TestUtils.class
+com\qa\testcases\ProductsPageTest.class
+listeners\Retry.class
 com\qa\pages\ProductsPage.class
 listeners\MyTransformer.class
 com\qa\base\TestBase.class
-com\qa\utils\TestUtils.class

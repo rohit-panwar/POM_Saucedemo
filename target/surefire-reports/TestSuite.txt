@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 86.276 sec <<< FAILURE!
-multiUserLoginTest(com.qa.testcases.LoginPageTest)  Time elapsed: 0.197 sec  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertTrue(Assert.java:45)
-	at org.testng.Assert.assertTrue(Assert.java:55)
-	at com.qa.pages.ProductsPage.verifyPageByURL(ProductsPage.java:35)
-	at com.qa.testcases.LoginPageTest.multiUserLoginTest(LoginPageTest.java:65)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 40.385 sec

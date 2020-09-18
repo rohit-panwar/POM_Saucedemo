@@ -11,11 +11,11 @@ pipeline {
             }
         }
 
-        stage ('Testing Stage') {
+        stage ('Testing Stage- Smoke Test') {
 
             steps {
                 withMaven(maven : 'jenkins_maven_3_6_3') {
-                    bat 'mvn test'
+                    bat 'mvn test -DsuiteXmlFile=smoke_test_testng.xml'
                 }
             }
         }
