@@ -15,7 +15,7 @@ pipeline {
 
             steps {
                 withMaven(maven : 'jenkins_maven_3_6_3') {
-                    bat 'mvn test -DsuiteXmlFile=smoke_test_testng.xml'
+                    bat 'mvn test -DsuiteXmlFile="./smoke_test_testng.xml"'
                 }
             }
         }
